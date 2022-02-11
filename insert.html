@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Insert | CPSC2221 Term Project</title>
+        <link rel="stylesheet" href="css/general.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>CPSC2221 Term Project Step 6</h1>
+        </header>
+        <nav>
+            <a href="Index.html" title="Home">Home</a> |
+            <a href="#" title="Insert">Insert</a> |
+            <a href="delete.html" title="Delete">Delete</a> |
+            <a href="update.html" title="Update">Update</a> |
+            <a href="select.html" title="Select">Select</a> 
+        </nav>
+        <main>
+            <div class="maindiv">
+                <h2>Insert into people table</h2>    
+                    <form action = "php/insert.php" method="post">
+                        <label>PeopleID: </label>
+                        <input type="text" name="PeopleID"><br><br>
+                        <label>FirstName: </label>
+                        <input type="text" name="FName"><br><br>
+                        <label>LastName: </label>
+                        <input type="text" name="LName"><br><br>
+                        <label>Phone: </label>
+                        <input type="text" name="Phone"><br><br>
+                        <label>Email: </label>
+                        <input type="text" name="Email"><br><br>
+                        <input type="submit" name="submit" value="Submit">
+                    </form>        
+            </div>
+        </main>
+        
+        <footer>
+            <nav>
+                <a href="https://www.facebook.com/alex.liu.9256" title="Find me on Facebook"><img src="src/facebook.png" alt="Facebook" width="50" height="50"></a> |
+                <a href="https://www.instagram.com/lcldawg/" title="Find me on Instagram"><img src="src/instagram.jpg" alt="Instagram" width="50" height="50"></a> |
+                <a href="https://github.com/alexliu42" title="Find me on GitHub"><img src="src/github.png" alt="GitHub" width="50" height="50"></a> 
+            </nav>
+            <small><i>
+                Copyright &copy; 2021 Alex Liu<br>
+                <a href="mailto:alexliu42@yahoo.com.tw">alexliu42@yahoo.com.tw</a>
+            </i></small>
+        </footer>
+    </body>
+</html>
